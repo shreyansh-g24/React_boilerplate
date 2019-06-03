@@ -1,0 +1,23 @@
+{
+  "name": "react_boilerplate",
+  "version": "1.0.0",
+  "description": "a react boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SG24/React_boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "boilerplate"
+  ],
+  "author": "SG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SG24/React_boilerplate/issues"
+  },
+  "homepage": "https://github.com/SG24/React_boilerplate#readme"
+}
