@@ -1,7 +1,16 @@
-// importing modules
-import add from "./add";
-import { sub } from "./sub";
+// importing modules //
+import React, {Component} from "react";
+import ReactDOM from "react-dom";
 
-// executing code
-console.log("Adding 24 and 34: ", add(24, 34));
-console.log("Subtracting 24 from 34: ", sub(24, 34)); 
+// declaring classes and functions //
+class App extends Component {
+  render(){
+    return (
+      <h1>Hello World</h1>
+    );
+  }
+}
+
+// execution //
+// rendering app
+ReactDOM.render(<App />, document.querySelector("#root"));
